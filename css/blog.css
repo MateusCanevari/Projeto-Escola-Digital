@@ -1,0 +1,46 @@
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-bottom: 6rem;
+}
+
+.blog-post {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.8rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.blog-post-title {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-date {
+    font-size: 1.4rem;
+    color: #999;
+    margin-bottom: 2rem;
+}
+
+.blog-post-text {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.blog-post-readmore {
+    display: inline-block;
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.blog-post-readmore:hover {
+    background-color: #ffc107;
+    text-decoration: underline;
+}
